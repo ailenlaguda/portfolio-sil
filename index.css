@@ -45,12 +45,37 @@ body{
   margin: auto;
 }
 
+#card1{
+	border: 1px solid black;
+	background: rgba(189, 143, 167, .2);
+ 	border-radius: 15px 50px 30px;
+}
+
+#card1:hover{
+	background-color: #5C1551;
+	color: white;
+}
+
+#card1 > a> img{
+	border-radius: 15px 50px 30px;
+}
+
+
 #aboutme, #projects, #t, #contact{
 	background: rgba(189, 143, 167, 0.3) /* Green background with 30% opacity */
+
 }
 
 #toh, {
 	color: rgba(189, 143, 167, 0.0);
+}
+
+div a:hover {
+  opacity: 0.8;
+}
+
+div > a > h5{
+	color: #5C1551;  
 }
 
 #myBtn {
@@ -75,6 +100,10 @@ body{
 
 .navbar{
 	background-color: #5C1551;	
+}
+
+#mprojects{
+	background:#5C1551;
 }
 
 #pre-footer > div {
@@ -113,3 +142,10 @@ footer{
 	padding: 1%;
 }
 
+div a, a:hover {
+  text-decoration: none;
+ }
+
+.btn:hover{
+	background-color: #5C1551;
+}
