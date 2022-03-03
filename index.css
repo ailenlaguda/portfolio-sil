@@ -45,13 +45,13 @@ body{
   margin: auto;
 }
 
-#card1{
+#card1, #card2, #card3{
 	border: 1px solid black;
 	background: rgba(189, 143, 167, .2);
  	border-radius: 15px 50px 30px;
 }
 
-#card1:hover{
+#card1:hover, #card2:hover, #card3:hover{
 	background-color: #5C1551;
 	color: white;
 }
@@ -102,7 +102,7 @@ div > a > h5{
 	background-color: #5C1551;	
 }
 
-#mprojects{
+#mprojects1, #mprojects2, #mprojects3{
 	background:#5C1551;
 }
 
