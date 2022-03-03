@@ -109,8 +109,17 @@ div > a > h5{
 }
 
 #conactbutton{
-	background-color: #eb34c3;
+	background-color: #5C1551;
+	color: white;
+	border-color: hotpink;
+	border-width:3px;
 }
+
+#conactbutton:hover{
+	background-color: white;
+	color: black;
+}
+
 #mprojects1, #mprojects2, #mprojects3{
 	background:#5C1551;
 }
