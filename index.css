@@ -1,92 +1,49 @@
 /*CSS REset*/
-.*{
+*{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-
 }
-
-#navbar	{
-/*	background-color: #DBC8EE;*/
-	color: black;
-  
-  position:sticky;
-
-}
-
-/*.img-fluid{
-	max-width: 100%;
-	max-width: auto;
-	width: 10%;
-	height: 5%;
-}*/
-
-body{
-	
-	/*background-color: #DBC8EE; /* F*/or browsers that do not support gradients */
-
-}
-
 .jumbotron {
   background-image: url("images/bgpurple1.png") ;
   background-size: cover;
 	background-position: center center;
-	     padding-top: 15%;
-      padding-bottom: 15%;
+	padding-top: 15%;
+  padding-bottom: 15%;
 }
-
-#title1{
+#title-1{
 	font-family: 'Lobster', cursive;
 }
-
+.navbar, .section-header, div > a > h5{
+	background:#5C1551;
+}
+.cards, .contacts{
+  background: rgba(189, 143, 167, .2);
+  border-radius: 15px 50px 30px;
+  border: 1px solid black;
+}
+.cards:hover, .contacts:hover{
+  background-color: #5C1551;
+  color: white;
+}
+#contact-button{
+	background-color: #5C1551;
+	color: white;
+	border-color: hotpink;
+	border-width:3px;
+}
+#contact-button:hover{
+	background-color: white;
+	color: black;
+}
 .carousel-control-next,
 .carousel-control-prev /*, .carousel-indicators */ {
     filter: invert(100%);
 }
-
 .carousel-inner img {
   margin: auto;
 }
-
-#card1, #card2, #card3, #contactform, #map, #findus{
-	border: 1px solid black;
-	background: rgba(189, 143, 167, .2);
- 	border-radius: 15px 50px 30px;
-}
-
-#card1:hover, #card2:hover, #card3:hover, #contactform:hover{
-	background-color: #5C1551;
-	color: white;
-}
-
-/*#card1 > a> img{
-	border-radius: 15px 50px 30px;
-}*/
-
-#aboutme > div > div > img{
-	 
-  filter: grayscale(50%);
-  border-radius: 25%;
-  height: 50%;
-}
-
-/*#aboutme, #projects, #t, #contact{
-	background: rgba(189, 143, 167, 0.3) 
-}
-*/
-#toh{
-	color: rgba(189, 143, 167, 0.0);
-}
-
-div a:hover {
-  opacity: 0.8;
-}
-
-div > a > h5{
-	color: #5C1551;  
-}
-
-#myBtn {
+#floating-button {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
   bottom: 20px; /* Place the button at the bottom of the page */
@@ -101,31 +58,13 @@ div > a > h5{
   border-radius: 10px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
 }
-
 #myBtn:hover, #findme {
   background-color: #555; /* Add a dark-grey background on hover */
 }
 
 
-.navbar{
-	background-color: #5C1551;	
-}
 
-#conactbutton{
-	background-color: #5C1551;
-	color: white;
-	border-color: hotpink;
-	border-width:3px;
-}
 
-#conactbutton:hover{
-	background-color: white;
-	color: black;
-}
-
-#mprojects1, #mprojects2, #mprojects3{
-	background:#5C1551;
-}
 
 #pre-footer > div {
 	display: inline-block;
